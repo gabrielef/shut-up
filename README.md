@@ -12,7 +12,7 @@ $ npm i @gabrielef/shut-up
 ```
 
 ### Usage
-The script is base on the env varibale `process.env.SHUT_UP_LOG_LEVEL`, you just need to provide a value and require the script.
+Configure the logging level using the env varibale `process.env.SHUT_UP_LOG_LEVEL` then require the script.
 
 ```js
 require('@gabrielef/shut-up');
@@ -27,7 +27,7 @@ require('@gabrielef/shut-up');
 
 Available levels are: trace, debug, info, log, warn, error. Default is `error`.
 
-The below table shows the output of each level.
+The below table shows the output for each level.
 
 |                   | **error** | **warn** | **log** | **info** | **debug** | **trace** |
 |-------------------|-----------|----------|---------|----------|-----------|-----------|
