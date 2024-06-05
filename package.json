@@ -1,6 +1,6 @@
 {
   "name": "@gabrielef/shut-up",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A tiny script let you choose logging levels using the standard console object",
   "main": "index.js",
   "scripts": {
