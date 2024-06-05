@@ -1,7 +1,5 @@
 # Shut-Up
-
 This tiny script let you choose logging levels using the standard console object.
-
 
 ## Getting Started
 
@@ -30,7 +28,7 @@ Available levels are: trace, debug, info, log, warn, error. Default is `error`.
 The below table shows the output for each level.
 
 |                   | **error** | **warn** | **log** | **info** | **debug** | **trace** |
-|-------------------|-----------|----------|---------|----------|-----------|-----------|
+|-------------------|:---------:|:--------:|:-------:|:--------:|:---------:|:---------:|
 | **console.error** |     Y     |     Y    |    Y    |     Y    |     Y     |     Y     |
 | **console.warn**  |     N     |     Y    |    Y    |     Y    |     Y     |     Y     |
 | **console.log**   |     N     |     N    |    Y    |     Y    |     Y     |     Y     |
@@ -38,6 +36,6 @@ The below table shows the output for each level.
 | **console.debug** |     N     |     N    |    N    |     N    |     Y     |     Y     |
 | **console.trace** |     N     |     N    |    N    |     N    |     N     |     Y     |
 
-## License
 
+## License
 This project is licensed under the GPU GPL 3.0 License - see the LICENSE.md file for details
