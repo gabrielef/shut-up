@@ -34,8 +34,11 @@ The below table shows the output for each level.
 | **console.log**   |     N     |     N    |    Y    |     Y    |     Y     |     Y     |
 | **console.info**  |     N     |     N    |    N    |     Y    |     Y     |     Y     |
 | **console.debug** |     N     |     N    |    N    |     N    |     Y     |     Y     |
+| **console.table** |     N     |     N    |    N    |     N    |     Y     |     Y     |
+| **console.time**  |     N     |     N    |    N    |     N    |     Y     |     Y     |
+| **console.timeLog**  |     N     |     N    |    N    |     N    |     Y     |     Y     |
+| **console.timeEnd**  |     N     |     N    |    N    |     N    |     Y     |     Y     |
 | **console.trace** |     N     |     N    |    N    |     N    |     N     |     Y     |
-
 
 ## License
 This project is licensed under the GPU GPL 3.0 License - see the LICENSE.md file for details
